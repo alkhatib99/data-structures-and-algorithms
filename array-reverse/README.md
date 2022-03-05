@@ -5,7 +5,7 @@ Create a function called<span style="color:red">  reverseArray </span> which tak
 Without utilizing any of the built-in methods available to the language.
 Return an array with element in reversed order.
 
-[THE-PR](/)
+[THE-PR](/https://github.com/alkhatib99/data-structures-and-algorithms/pull/3)
 
 ---
 
