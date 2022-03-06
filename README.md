@@ -7,6 +7,7 @@ This repository will include some challenges are related to data-structure & alg
 ### Table Of Content
   
 * [Challenge 1- Reverse Array](#reverse-array)
+* [Challenge 2- Shift Array](#insert-shift-array)
 
 Data Structure Modules
 =====================
