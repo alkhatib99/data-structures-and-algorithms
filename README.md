@@ -23,7 +23,7 @@ Write a function called reverseArray which takes an array as an argument. Withou
 
 *[The Sol:](/array-reverse/README.md)*
 
-<img src="./assets/array_reverse.jpg" style="width: 350px;">
+<img src="./array-reverse/array-reverse.png" style="width: 350px;">
 
 <a id="insert-shift-array"></a>
 
@@ -37,7 +37,4 @@ Write a function called ```insertShiftArray``` which takes in an array and the v
 
 *[The Sol:](/array-insert-shift/README.md)*
 
-<img src="./assets/array_shift1.jpg" style="width: 350px; text-align: center;">
-<img src="./assets/array_shift2.jpg" style="width: 350px; text-align: center;">
-
-<a id="binary-search"></a>
+<img src="./array-insert-shift/array-shift.png" style="width: 350px; text-align: center;">
