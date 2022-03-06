@@ -11,7 +11,7 @@ Return an array with element in reversed order.
 
 ## Whiteboard Process
 
-!['WhiteBoard for array-reverse'](/array-reverse/array-reverse.png)
+!['WhiteBoard for array-reverse'](./array-reverse.png)
 
 ---
 
