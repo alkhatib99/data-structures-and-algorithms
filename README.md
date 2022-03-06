@@ -38,4 +38,4 @@ Write a function called ```insertShiftArray``` which takes in an array and the v
 
 *[The Sol:](/array-insert-shift/README.md)*
 
-<img src="./array-insert-shift/array-insert-shift.jpg" style="width: 350px; text-align: center;">
+  >![The whiteboard of second sol](./array-insert-shift/array-insert-shift.jpg)
