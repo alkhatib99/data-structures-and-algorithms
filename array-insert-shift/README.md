@@ -7,7 +7,7 @@ and return an array with the new value added at the middle index.
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-![img](./array-shift.png)
+![img](/array-insert-shift/array-insert-shift.jpg)
 
 ---
 

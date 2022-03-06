@@ -1,23 +1,20 @@
-def insert_shift_array(arr, val):
+
+def insertShiftArray(arr,insert):
     """
     Insert value in the middle of an array
     """
+    result=[]
+    length = ceil(len(arr)/2)
+    for i in range(len(arr)):
+        if i==length:
+            result=result+[insert]
+        result=result+[arr[i]]
+    return result
 
-    new = []
+def ceil(num):
+    floor = int(num)
+    if floor != num:
+        return floor + 1
+    return floor
 
-    c = len(arr) - (len(arr) // 2)
-
-    new.extend(arr[:c])
-    new.append(val)
-    new.extend(arr[c:])
-
-    return new
-
-
-#arr = [1,2,4,6,7]
-#arr = insert_shift_array(arr, 5)
-#print(arr)
-
-#arr = [1,3,4,7,9]
-#arr = isa2(arr, 2)
-#print(arr)
+print(insertShiftArray([1,2,4,5],7))
