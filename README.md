@@ -39,3 +39,25 @@ Write a function called ```insertShiftArray``` which takes in an array and the v
 *[The Sol:](/array-insert-shift/README.md)*
 
   >![The whiteboard of second sol](./array-insert-shift/array-insert-shift.jpg)
+
+---
+
+### Challenege 3 - Array Binary Search
+
+#### Challenge
+
+Function called `binary_search`
+ which takes 2 parameters:
+
+* first is a sorted array
+* second is the search key.
+
+Return the index of the array’s element that is equal to the value of the search key
+     or -1 if the element is not in the array.
+---
+
+#### Solution
+
+*[The Sol:](./array-binary-search/README.md)*
+
+  >![The whiteboard of third sol](./array-binary-search/array-binary-search.jpg)
