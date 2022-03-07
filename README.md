@@ -8,6 +8,7 @@ This repository will include some challenges are related to data-structure & alg
   
 * [Challenge 1- Reverse Array](#reverse-array)
 * [Challenge 2- Shift Array](#insert-shift-array)
+* [Challenge 3- Array Binary Search](#array-binary-search)
 
 Data Structure Modules
 =====================
@@ -41,6 +42,7 @@ Write a function called ```insertShiftArray``` which takes in an array and the v
   >![The whiteboard of second sol](./array-insert-shift/array-insert-shift.jpg)
 
 ---
+<a id="array-binary-search"></a>
 
 ### Challenege 3 - Array Binary Search
 
