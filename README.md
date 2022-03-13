@@ -9,6 +9,7 @@ This repository will include some challenges are related to data-structure & alg
 * [Challenge 1- Reverse Array](#reverse-array)
 * [Challenge 2- Shift Array](#insert-shift-array)
 * [Challenge 3- Array Binary Search](#array-binary-search)
+* [Challenge 5- Linked-List](#Linked-List)
 
 Data Structure Modules
 =====================
@@ -42,6 +43,7 @@ Write a function called ```insertShiftArray``` which takes in an array and the v
   >![The whiteboard of second sol](./array-insert-shift/array-insert-shift.jpg)
 
 ---
+
 <a id="array-binary-search"></a>
 
 ### Challenege 3 - Array Binary Search
@@ -63,3 +65,21 @@ Return the index of the array’s element that is equal to the value of the sear
 *[The Sol:](./array-binary-search/README.md)*
 
   >![The whiteboard of third sol](./array-binary-search/array-binary-search.jpg)
+
+---
+
+<a id="linked-list"></a>
+
+### Challenege 5 - Linked-list
+
+#### Challenge
+
+how to used linkedlist ot inser element and check if is exist or not
+
+---
+
+#### Solution
+
+*[The Sol:](./linked-list/README.md)*
+
+> There are no whiteboard for this solution.
