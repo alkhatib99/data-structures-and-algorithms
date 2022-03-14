@@ -10,7 +10,7 @@ This repository will include some challenges are related to data-structure & alg
 * [Challenge 2- Shift Array](#insert-shift-array)
 * [Challenge 3- Array Binary Search](#array-binary-search)
 * [Challenge 5- Linked-List](#Linked-List)
-
+* [Challenge 6- Linked-List-insertion](#linked-list-insertion)
 Data Structure Modules
 =====================
 
@@ -68,7 +68,7 @@ Return the index of the array’s element that is equal to the value of the sear
 
 ---
 
-<a id="linked-list"></a>
+<a id="linked-list-insertion"></a>
 
 ### Challenege 5 - Linked-list
 
@@ -83,3 +83,25 @@ how to used linkedlist ot inser element and check if is exist or not
 *[The Sol:](./linked-list/README.md)*
 
 > There are no whiteboard for this solution.
+
+---
+
+### Challenege 6 - Link List - Append,Insert before, Insert After
+Write methods that appends an node to the end of the link list, inserts a new node before a specific value and one that inserts a new node after a specific value.
+
+
+[THE-PR]()
+
+- `.append(value)` which adds a new node with the given `value` to the end of the list
+- `.insertBefore(value, newVal)` which add a new node with the given `newValue` immediately before the first `value` node
+- `.insertAfter(value, newVal)` which add a new node with the given newValue immediately after the first value node
+
+---
+
+#### Solution
+
+*[The Sol:](./linked-list-insertion/README.md)*
+
+  >![The whiteboard ](./linked-list-insertion/linked-list-insertion.jpg)
+
+---
