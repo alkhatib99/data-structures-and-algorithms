@@ -7,22 +7,27 @@ This repository will include some challenges are related to data-structure & alg
 ### Table Of Content
   
 - [Data Structure & Algorithms](#data-structure--algorithms)
+ 
   - [Overview](#overview)
-    - [Table Of Content](#table-of-content)
-    - [Challenege 1 - Reverse Array](#challenege-1---reverse-array)
-      - [Challenge](#challenge)
-      - [Solution](#solution)
-    - [Challenege 2 - Insert and Shift Array](#challenege-2---insert-and-shift-array)
-      - [Challenge](#challenge-1)
-      - [Solution](#solution-1)
-    - [Challenege 3 - Array Binary Search](#challenege-3---array-binary-search)
-      - [Challenge](#challenge-2)
-      - [Solution](#solution-2)
+  
+  - [Table Of Content](#table-of-content)
+  - [Challenege 1 - Reverse Array](#challenege-1---reverse-array)
+    - [Challenge](#challenge)
+    - [Solution](#solution)
+  - [Challenege 2 - Insert and Shift Array](#challenege-2---insert-and-shift-array)
+    - [Challenge](#challenge-1)
+    - [Solution](#solution-1)
+  - [Challenege 3 - Array Binary Search](#challenege-3---array-binary-search)
+    - [Challenge](#challenge-2)
+    - [Solution](#solution-2)
   - [Challenege 5 - Linked-list](#challenege-5---linked-list)
-      - [Solution](#solution-3)
+    - [Challenge](#challenge-3)
+    - [Solution](#solution-3)
   - [Challenege 6 - LinkedList - Append,Insert before, Insert After](#challenege-6---linkedlist---appendinsert-before-insert-after)
+    - [Challenge](#challenge-4)
     - [Solution](#solution-4)
   - [Challenege 7 - LinkedList - kth from end](#challenege-7---linkedlist---kth-from-end)
+    - [Challenge](#challenge-5)
     - [Solution](#solution-5)
 
 =====================
@@ -99,6 +104,9 @@ how to used linkedlist ot inser element and check if is exist or not
 
 ## Challenege 6 - LinkedList - Append,Insert before, Insert After
 
+---
+
+#### Challenege
 Write methods that appends an node to the end of the link list, inserts a new node before a specific value and one that inserts a new node after a specific value.
 
 - `.append(value)` which adds a new node with the given `value` to the end of the list
@@ -119,11 +127,14 @@ Write methods that appends an node to the end of the link list, inserts a new no
 
 ## Challenege 7 - LinkedList - kth from end
 
+---
+
+#### Challenege
 Create a  function that returns the node's value that is k places fro teh tail of linked list.
 
 ---
 
-### Solution
+#### Solution
 
 *[The Sol:](./linkedlist-kth/README.md)*
 
