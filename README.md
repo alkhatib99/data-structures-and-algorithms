@@ -111,7 +111,7 @@ Write methods that appends an node to the end of the link list, inserts a new no
 
 ### Solution
 
-*[The Sol:](../data-structures-and-algorithms/linkedlist-kth/README.md)*
+*[The Sol:](./linked-list-insertion/README.md)*
 
   >![The whiteboard ](./linked-list-insertion/linked-list-insertion.jpg)
 
@@ -125,7 +125,7 @@ Create a  function that returns the node's value that is k places fro teh tail o
 
 ### Solution
 
-*[The Sol:](./linkendlist-kth/../README.md)*
+*[The Sol:](./linkedlist-kth/README.md)*
 
   >![The whiteboard ](./linkedlist-kth/linkedlist_kth.jpg)
 
