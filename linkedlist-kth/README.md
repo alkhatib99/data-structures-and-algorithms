@@ -1,4 +1,4 @@
-# Link List - Append,Insert before, Insert After
+# Link List - kth From End
 
 Create a Node class that has properties for the find value in list by index by start from end to first
 
