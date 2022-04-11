@@ -8,7 +8,7 @@ Create a function called<span style="color:red">  reverseArray </span>
 Without utilizing any of the built-in methods available to the language.
 Return an array with element in reversed order.
 
-[THE-PR](https://github.com/alkhatib99/data-structures-and-algorithms/pull/3)
+[THE-PR](https://github.com/alkhatib99/data-structures-and-algorithms/pull/21)
 
 ---
 
