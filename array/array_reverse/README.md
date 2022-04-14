@@ -3,7 +3,7 @@
 ## Challenge
 
 Take an array as input from user
-Create a function called<span style="color:red">  reverseArray </span> 
+Create a function called<span style="color:red">  reverseArray </span>
     which takes an array as an argument.
 Without utilizing any of the built-in methods available to the language.
 Return an array with element in reversed order.
@@ -14,8 +14,7 @@ Return an array with element in reversed order.
 
 ## Whiteboard Process
 
-!['WhiteBoard for array-reverse'](./WB_array_reverse.jpgg)
-
+!['WhiteBoard for array-reverse'](./WB_array_reverse.jpg)
 ---
 
 ## Approach & Efficiency

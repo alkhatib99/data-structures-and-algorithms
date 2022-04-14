@@ -1,5 +1,5 @@
+from array.array_reverse.array_reverse.array_reverse import reverse_array
 from array_reverse import __version__
-from array_reverse.array_reverse import reverse_array
 
 def test_array_reverse():
     actual=[3,5,6,7]

@@ -78,7 +78,6 @@ Write a function called ```insertShiftArray``` which takes in an array and the v
 
 ---
 
-
 ### Challenege 3 - Array Binary Search
 
 #### Challenge
@@ -119,6 +118,7 @@ how to use LinkedList to insert elements and check if it is exist or not
 ---
 
 #### Whiteboard
+
 > There is no whiteboard for this solution.
 
 ---
@@ -126,6 +126,7 @@ how to use LinkedList to insert elements and check if it is exist or not
 ### Challenge 6 - LinkedList - Append,Insert before, Insert After
 
 #### Challenge
+
 Write methods that append a node to the end of the link list, insert a new node before a specific value, and one that inserts a new node after a specific value.
 
 - `.append(value)` which adds a new node with the given `value` to the end of the list
@@ -153,6 +154,7 @@ Write methods that append a node to the end of the link list, insert a new node 
 ---
 
 #### Challenge
+
 Create a  function that returns the node's value that is k places fro teh tail of linked list.
 
 ---

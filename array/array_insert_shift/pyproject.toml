@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "array-insert-shift"
+name = "array_insert_shift"
 version = "0.1.0"
 description = ""
 authors = ["Alkhatib99 <aboodjob@gmail.com>"]
@@ -9,7 +9,6 @@ python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
-black = {version = "^22.1.0", allow-prereleases = true}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
