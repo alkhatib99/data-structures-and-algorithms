@@ -1,12 +1,13 @@
 
-def insertShiftArray(arr,insert):
+def insert_shift_array(arr,insert):
     """
-    Insert value in the middle of an array
+    Function takes and array and new value
+     to insert new value to the middle of array
     """
     result=[]
-    length = ceil(len(arr)/2)
+    middle = ceil(len(arr)/2)
     for i in range(len(arr)):
-        if i==length:
+        if i==middle:
             result=result+[insert]
         result=result+[arr[i]]
     return result
@@ -17,4 +18,4 @@ def ceil(num):
         return floor + 1
     return floor
 
-print(insertShiftArray([1,2,4,5],7))
+print(insert_shift_array([1,2,3,4,5],7))
