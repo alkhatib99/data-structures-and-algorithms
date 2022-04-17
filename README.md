@@ -83,7 +83,7 @@ Without utilizing any of the built-in methods available to your language, return
 
 ##### Whiteboard
 
-![The whiteboard](./array/array-binary-search/README.md)
+![The whiteboard](./array/array-insert-shift/whiteboard_array_insert_shift.jpg)
 
 ---
 
@@ -108,7 +108,7 @@ Return the index of the array’s element that is equal to the value of the sear
 
 ##### Whiteboard
 
-![The whiteboard](./array/array-binary-search/README.md)
+![The whiteboard](./array/array-binary-search/whiteboard-array-binary-search.jpg)
 
 ---
 
