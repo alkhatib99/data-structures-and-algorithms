@@ -9,18 +9,20 @@ This repository will include some challenges are related to data structure & alg
 - [Data Structure & Algorithms](#data-structure--algorithms)
   - [Overview](#overview)
   - [Table Of Content](#table-of-content)
-    - [Challenege 1 - Reverse Array](#challenege-1---reverse-array)
-      - [Challenge](#challenge)
-      - [Solution](#solution)
-      - [Whiteboard](#whiteboard)
-    - [Challenge 2 - Insert and Shift Array](#challenge-2---insert-and-shift-array)
-      - [Challenge](#challenge-1)
-      - [Solution](#solution-1)
-      - [Whiteboard](#whiteboard-1)
-    - [Challenege 3 - Array Binary Search](#challenege-3---array-binary-search)
-      - [Challenge](#challenge-2)
-      - [Solution](#solution-2)
-      - [Whiteboard](#whiteboard-2)
+  - [Challeneges](#challeneges)
+    - [Array Challenges](#array-challenges)
+      - [Challenege 1 - Reverse Array](#challenege-1---reverse-array)
+        - [Challenge](#challenge)
+        - [Solution](#solution)
+        - [Whiteboard](#whiteboard)
+      - [Challenge 2 - Insert and Shift Array](#challenge-2---insert-and-shift-array)
+        - [Challenge](#challenge-1)
+        - [Solution](#solution-1)
+        - [Whiteboard](#whiteboard-1)
+      - [Challenege 3 - Array Binary Search](#challenege-3---array-binary-search)
+        - [Challenge](#challenge-2)
+        - [Solution](#solution-2)
+        - [Whiteboard](#whiteboard-2)
     - [Challenege 5 - Linked-list](#challenege-5---linked-list)
       - [Challenge](#challenge-3)
       - [Solution](#solution-3)
@@ -38,49 +40,56 @@ This repository will include some challenges are related to data structure & alg
       - [Solution](#solution-6)
       - [Whiteboard](#whiteboard-6)
 
-### Challenege 1 - Reverse Array
+## Challeneges
 
-#### Challenge
+Table of Challenges sorted by type
+
+### Array Challenges
+
+#### Challenege 1 - Reverse Array
+
+##### Challenge
 
 Write a function called reverseArray which takes an array as an argument. Without utilizing any of the built-in methods available to your language, return the provided array argument with elements in reversed order.
 
 ---
 
-#### Solution
+##### Solution
 
-*[The Sol:](/array-reverse/README.md)*
-
----
-
-#### Whiteboard
-
-![*whiteboard*](./array-reverse/array-reverse.png)
+*[The Sol:](./array/array-reverse/README.md)*
 
 ---
 
-### Challenge 2 - Insert and Shift Array
+##### Whiteboard
 
-#### Challenge
-
-Write a function called ```insertShiftArray``` which takes in an array and the value to be added. Without utilizing any of the built-in methods available to your language, return an array with the new value added at the middle index.
+![*whiteboard*](./array/array-reverse/whiteboard_array_reverse.jpg)
 
 ---
 
-#### Solution
+#### Challenge 2 - Insert and Shift Array
 
-*[The Sol:](/array-insert-shift/README.md)*
+##### Challenge
 
----
-
-#### Whiteboard
-
-![The whiteboard of second sol](./array-insert-shift/array-insert-shift.jpg)
+Write a function called ```insertShiftArray``` which takes in an array and the value to be added.
+Without utilizing any of the built-in methods available to your language, return an array with the new value added at the middle index.
 
 ---
 
-### Challenege 3 - Array Binary Search
+##### Solution
 
-#### Challenge
+*[The Sol:](./array/array-insert-shift/README.md)*
+
+---
+
+##### Whiteboard
+
+![The whiteboard](./array/array-binary-search/README.md)
+
+---
+
+#### Challenege 3 - Array Binary Search
+
+##### Challenge
 
 A function called `binary_search`
  which takes 2 parameters:
@@ -93,13 +102,13 @@ Return the index of the array’s element that is equal to the value of the sear
 
 ---
 
-#### Solution
+##### Solution
 
-*[The Sol:](./array-binary-search/README.md)*
+*[The Sol:](./array/array-binary-search/README.md)*
 
-#### Whiteboard
+##### Whiteboard
 
-![The whiteboard](./array-binary-search/array-binary-search.jpg)
+![The whiteboard](./array/array-binary-search/README.md)
 
 ---
 
