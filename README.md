@@ -39,6 +39,14 @@ This repository will include some challenges are related to data structure & alg
         - [Challenge](#challenge-6)
         - [Solution](#solution-6)
         - [Whiteboard](#whiteboard-6)
+      - [Challenge 10 - Stack and Queue Implementation](#challenge-10---stack-and-queue-implementation)
+        - [Challenge](#challenge-7)
+        - [Solution](#solution-7)
+        - [Whiteboard](#whiteboard-7)
+      - [Challenge 11 - Stack Queue Pseudo](#challenge-11---stack-queue-pseudo)
+        - [Challenge](#challenge-8)
+        - [Solution](#solution-8)
+        - [Whiteboard](#whiteboard-8)
 
 ## Challeneges
 
@@ -195,3 +203,40 @@ Write a function called Zip Linkedlists which takes two linked lists as argument
 ##### Whiteboard
 
 ![*Whiteboard*](./LinkedList/linked-list-zip/whiteboard_linked_list_zip.jpg)
+
+#### Challenge 10 - Stack and Queue Implementation
+
+##### Challenge
+
+Implement both Stack and a Queue
+
+---
+
+##### Solution 
+
+*[**The Solution**](./stack_and_queue/)
+
+---
+
+##### Whiteboard
+
+**There are no whiteboard for this solution**
+
+
+#### Challenge 11 - Stack Queue Pseudo
+
+##### Challenge 
+
+Implement a Queue using two Stacks.
+
+---
+
+##### Solution 
+
+[*The solution*](./stack_and_queue/stack_queue_pseudo/README.md)
+
+---
+
+##### Whiteboard
+
+![](./stack_and_queue/stack_queue_pseudo/whiteboard-satck-queue-pseudo.jpg)
