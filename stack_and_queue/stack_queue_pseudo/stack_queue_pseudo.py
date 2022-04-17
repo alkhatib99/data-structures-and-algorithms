@@ -8,31 +8,31 @@ class PseudoQueue:
     def __init__(self):
         self.front=None
         self.rear=None
-        self.stack_1=Stack()
-        self.stack_2=Stack()
+        self.stack1=Stack()
+        self.stack2=Stack()
 
     def enqueue(self,value):
         """
         This method inserts value into the PseudoQueue, using a first-in, first-out approach.
     
         """
-        self.stack_1.push(value)
-        self.rear=self.stack_1.top.data
+        self.stack1.push(value)
+        self.rear=self.stack1.top.data
 
 
     def dequeue(self):
         """
         This method Extracts a value from the PseudoQueue, using a first-in, first-out approach.h
         """
-        if self.stack_1.top:
-            while not self.stack_1.is_empty():
-                self.stack_2.push(self.stack_1.pop())
+        if self.stack1.top:
+            while not self.stack1.is_empty():
+                self.stack2.push(self.stack1.pop())
 
-            popedValue=self.stack_2.pop()
-            self.front=self.stack_2.top
-            self.stack_1=Stack()
-            while not self.stack_2.is_empty():
-                self.stack_1.push(self.stack_2.pop())
+            popedValue=self.stack2.pop()
+            self.front=self.stack2.top
+            self.stack1=Stack()
+            while not self.stack2.is_empty():
+                self.stack1.push(self.stack2.pop())
 
             return popedValue
         else:
@@ -43,7 +43,7 @@ class PseudoQueue:
         This method to print out the queue
         """
         queue=''
-        current=self.stack_1.top
+        current=self.stack1.top
         while current:
             queue+="[ "+str(current.data)+" ] -> "
             current=current.next
