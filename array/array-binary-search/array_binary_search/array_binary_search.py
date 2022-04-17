@@ -5,25 +5,24 @@ def binary_search(arr,key):
     or -1  if didn't found it 
     """
     
-    indexMid=ceil(len(arr)/2)
-    mid=arr[indexMid]
+    index_mid=ceil(len(arr)/2)
+    
+    mid=arr[index_mid]
     high=arr[len(arr)-1]
-
     low=arr[0]
-    mid=arr[len(arr)-1]
     if key == high:
         return (len(arr)-1)
     elif key == low :
         return 0
     elif key == mid :
-        return indexMid
+        return index_mid
     elif key > mid:
-        for i in range(indexMid,len(arr)):
-            if(arr[i]==mid):
+        for i in range(index_mid,len(arr)-1):
+            if(arr[i]==key):
                 return i
     elif key< mid:
-        for i in range(indexMid,0,-1):
-            if(arr[i]== mid):
+        for i in range(index_mid,0,-1):
+            if(arr[i]== key):
                 return i        
     return -1
     

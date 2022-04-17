@@ -1,18 +1,7 @@
 
 class Node:
     """
-     Its a class that has properties for the value stored in the Node, and a pointer to the next Node.
-
-     Attributes
-     ----------
-
-     Methods
-     -------
-     __init__(value, next_):
-     the constructor method for the class, it takes two parameters,
-
-     /e value parameter is the a reference to the data the node will hold,
-     and the next_
+     The class that has properties for the value stored in the Node, and a pointer to the next Node.
 
     """
 
@@ -24,15 +13,7 @@ class Node:
 class linked_list:
     """
     Its a class for creating instances of a Linked List.
-     Attributes
-     ----------
-     head: Node | None
-
-     Methods
-     -------
-     insert(value: any)
-     contains(value: any) -> bool
-
+     
     """
 
     def __init__(self):

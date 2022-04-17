@@ -1,4 +1,6 @@
-# Insert to Middle of an Array
+# Array Insert Shift
+
+## Challenge
 <!-- Description of the challenge -->
 A function which takes in an array and a value to be added.
 and return an array with the new value added at the middle index.
