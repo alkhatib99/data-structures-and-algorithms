@@ -1,17 +1,18 @@
+
 class LinkedList:
     """
-    This is the LinkedList class
+    The LinkedList class
     """
 
     def __init__(self):
         """
-        This is the initialization of the linked list
+        The initialization of the linked list.
         """
         self.head = None
 
     def insert (self,value):
         """
-        Inserts node into the beginning of the linked list (not append)
+        Method to inserts node into the beginning of the linked list (not append).
         """
         new_node = Node(value)
 
@@ -21,7 +22,7 @@ class LinkedList:
 
     def includes(self,value):
         """
-        Returns true if node with value is in linked list. Otherwise returns false
+        Returns true if node with value is in linked list. Otherwise returns false.
         """
         if self.head  is not None :
             current =self.head
@@ -33,6 +34,10 @@ class LinkedList:
 
 
     def to_string(self):
+        """
+        Return the linked list elements as a string of format:
+        {fN->sN->lN->Null}
+        """
         if self.head:
             data_str = ''
             current = self.head
@@ -42,6 +47,11 @@ class LinkedList:
             data_str += 'NULL'
             return data_str
     def __str__(self):
+        """
+        Return the linked list elements as a string of format:
+        {fN->sN->lN->None}
+        """
+
         string = ""
         current_node = self.head
 
@@ -51,17 +61,16 @@ class LinkedList:
         
         string += "None"
         return string
-
-
+    
 
 
 class Node:
     """
-    This is the Node class
+    The Node class
     """
     def __init__(self,value):
         """
-        This is the initialization of the Node class
+        The initialization of the Node class
         """
         self.value =value
         self.next = None
