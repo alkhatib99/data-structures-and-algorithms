@@ -23,22 +23,22 @@ This repository will include some challenges are related to data structure & alg
         - [Challenge](#challenge-2)
         - [Solution](#solution-2)
         - [Whiteboard](#whiteboard-2)
-    - [Challenege 5 - Linked-list](#challenege-5---linked-list)
-      - [Challenge](#challenge-3)
-      - [Solution](#solution-3)
-      - [Whiteboard](#whiteboard-3)
-    - [Challenge 6 - LinkedList - Append,Insert before, Insert After](#challenge-6---linkedlist---appendinsert-before-insert-after)
-      - [Challenge](#challenge-4)
-      - [Solution](#solution-4)
-      - [Whiteboard](#whiteboard-4)
-    - [Challenege 7 - LinkedList - kth from end](#challenege-7---linkedlist---kth-from-end)
-      - [Challenge](#challenge-5)
-      - [Solution](#solution-5)
-      - [Whiteboard](#whiteboard-5)
-    - [Challenge 8 - Linkedlist - Zip](#challenge-8---linkedlist---zip)
-      - [Challenge](#challenge-6)
-      - [Solution](#solution-6)
-      - [Whiteboard](#whiteboard-6)
+      - [Challenege 5 - Linked-list](#challenege-5---linked-list)
+        - [Challenge](#challenge-3)
+        - [Solution](#solution-3)
+        - [Whiteboard](#whiteboard-3)
+      - [Challenge 6 - LinkedList - Append,Insert before, Insert After](#challenge-6---linkedlist---appendinsert-before-insert-after)
+        - [Challenge](#challenge-4)
+        - [Solution](#solution-4)
+        - [Whiteboard](#whiteboard-4)
+      - [Challenege 7 - LinkedList - kth from end](#challenege-7---linkedlist---kth-from-end)
+        - [Challenge](#challenge-5)
+        - [Solution](#solution-5)
+        - [Whiteboard](#whiteboard-5)
+      - [Challenge 8 - Linkedlist - Zip](#challenge-8---linkedlist---zip)
+        - [Challenge](#challenge-6)
+        - [Solution](#solution-6)
+        - [Whiteboard](#whiteboard-6)
 
 ## Challeneges
 
@@ -112,29 +112,29 @@ Return the index of the array’s element that is equal to the value of the sear
 
 ---
 
-### Challenege 5 - Linked-list
+#### Challenege 5 - Linked-list
 
-#### Challenge
+##### Challenge
 
-how to use LinkedList to insert elements and check if it is exist or not
-
----
-
-#### Solution
-
-*[The Sol:](./linked-list/README.md)*
+How to use LinkedList to insert elements and check if it is exist or not
 
 ---
 
-#### Whiteboard
+##### Solution
+
+*[The Sol:](./LinkedList/linkedlist/)*
+
+---
+
+##### Whiteboard
 
 > There is no whiteboard for this solution.
 
 ---
 
-### Challenge 6 - LinkedList - Append,Insert before, Insert After
+#### Challenge 6 - LinkedList - Append,Insert before, Insert After
 
-#### Challenge
+##### Challenge
 
 Write methods that append a node to the end of the link list, insert a new node before a specific value, and one that inserts a new node after a specific value.
 
@@ -146,52 +146,52 @@ Write methods that append a node to the end of the link list, insert a new node 
 
 ---
 
-#### Solution
+##### Solution
 
-*[The Sol:](./linked-list-insertion/README.md)*
-
----
-
-#### Whiteboard
-
-![The whiteboard ](./linked-list-insertion/linked-list-insertion.jpg)
+*[The Sol:](./LinkedList/linked-list-insertion/README.md)*
 
 ---
 
-### Challenege 7 - LinkedList - kth from end
+##### Whiteboard
+
+![The whiteboard ](./LinkedList/linked-list-insertion/whiteboard-linked-list-insertion.jpg)
 
 ---
 
-#### Challenge
+#### Challenege 7 - LinkedList - kth from end
+
+---
+
+##### Challenge
 
 Create a  function that returns the node's value that is k places fro teh tail of linked list.
 
 ---
 
-#### Solution
+##### Solution
 
-*[The Sol:](./linkedlist-kth/README.md)*
+*[The Sol:](./LinkedList/linked-list-kth/README.md))*
 
-#### Whiteboard
+##### Whiteboard
 
-![The whiteboard ](./linkedlist-kth/linkedlist_kth.jpg)
+![The whiteboard ](./LinkedList/linked-list-kth/whitebboard_linkedlist_kth.jpg)
 
 ---
 
-### Challenge 8 - Linkedlist - Zip
+#### Challenge 8 - Linkedlist - Zip
 
-#### Challenge
+##### Challenge
 
 Write a function called Zip Linkedlists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list.
 
 ---
 
-#### Solution
+##### Solution
 
-*[**The Solution**](./linkedlist-zip/README.md)
+*[**The Solution**](./LinkedList/linked-list-zip/README.md)
 
 ---
 
-#### Whiteboard
+##### Whiteboard
 
-![*Whiteboard*](./linkedlist-zip/whiteboard_ll_zip.jpg)
+![*Whiteboard*](./LinkedList/linked-list-zip/whiteboard_linked_list_zip.jpg)
