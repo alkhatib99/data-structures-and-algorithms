@@ -17,6 +17,7 @@ class PseudoQueue:
         # res=''
         while not self.stack1.is_empty():
                 self.stack2.push(self.stack1.pop())
+                
 
         self.stack2.push(value)
 
