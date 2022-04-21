@@ -4,10 +4,9 @@ class Stack:
     Stack class has one properity top of the stack
     """
     def __init__(self):
-        """
-        The initialization of stack class
-        """
         self.top=None
+
+        
     def push(self,value):
         """ 
        Method to  adds a new node with that value to the top of the stack

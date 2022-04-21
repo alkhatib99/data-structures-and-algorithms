@@ -1,43 +1,64 @@
-from stack_queue_pseudo import PseudoQueue
+from  stack_queue_pseudo.stack_queue_pseudo import PseudoQueue
 import pytest
 
-#@pytest.mark.skip('todo')
-def test_PseudoQueue_enqueue():
-    expected="[ 1 ] -> Null"
-    pesudo_queue = PseudoQueue()
-    pesudo_queue.enqueue(1)
-    actual = str(pesudo_queue)
-    assert expected == actual
-
-# @pytest.mark.skip('todo')
-def test_PseudoQueue_multiple_enqueues(pQueue):
-    pQueue.enqueue(9)
-    expected = "[ 9 ] -> [ 7 ] -> [ 5 ] -> [ 3 ] -> [ 1 ] -> Null"
-    actual = str(pQueue)
-    assert expected == actual
+def test_enqueue():
+    q = PseudoQueue()
+    q.enqueue("apple")
+    actual = q.stack2.top.data
+    expected = "apple"
+    assert actual == expected
 
 
-# @pytest.mark.skip('todo')
-def test_PseudoQueue_dequeue(pQueue):
-    expected ="[ 7 ] -> [ 5 ] -> [ 3 ] -> Null"
-    pQueue.dequeue()
-    actual = str(pQueue)
-    assert expected == actual
+def test_dequeue():
+    q = PseudoQueue()
+    q.enqueue("apple")
+    actual = q.dequeue()
+    expected = "apple"
+    assert actual == expected
 
 
-# @pytest.mark.skip('todo')
-def test_PseudoQueue_multiple_dequeues(pQueue):
-    expected ="[ 7 ] -> [ 5 ] -> Null"
-    pQueue.dequeue()
-    pQueue.dequeue()
-    actual = str(pQueue)
-    assert expected == actual
+def test_dequeue_with_one_node():
+    q = PseudoQueue()
+    q.enqueue("apple")
+    q.dequeue()
+    actual = q.stack2.top
+    expected = None
+    assert actual == expected
 
-@pytest.fixture
-def pQueue():
-    pQueue=PseudoQueue()
-    pQueue.enqueue(1)
-    pQueue.enqueue(3)
-    pQueue.enqueue(5)
-    pQueue.enqueue(7)
-    return pQueue
+
+# @pytest.mark.skip("pending")
+def test_enqueue_two():
+    q = PseudoQueue()
+    q.enqueue("apples")
+    q.enqueue("bananas")
+    actual = q.stack2.top.data
+    expected = "bananas"
+    assert actual == expected
+
+
+def test_dequeue_when_empty():
+    q = PseudoQueue()
+    with pytest.raises(Exception) as e:
+        q.dequeue()
+
+    assert str(e.value) == "Method not allowed on empty collection"
+
+
+def test_dequeue_when_full():
+    q = PseudoQueue()
+    q.enqueue("apples")
+    q.enqueue("bananas")
+    actual = q.dequeue()
+    expected = "apples"
+    assert actual == expected
+
+
+# @pytest.mark.skip("pending")
+def test_peek_post_dequeue():
+    q = PseudoQueue()
+    q.enqueue("apples")
+    q.enqueue("bananas")
+    q.dequeue()
+    actual = q.stack1.top.data
+    expected = "bananas"
+    assert actual == expected
