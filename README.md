@@ -69,13 +69,13 @@ Write a function called reverseArray which takes an array as an argument. Withou
 
 #### Solution
 
-*[The Sol:](./array/array-reverse/README.md)*
+*[The Sol:](./array/array_reverse/README.md)*
 
 ---
 
 #### Whiteboard
 
-![*whiteboard*](./array/array-reverse/whiteboard_array_reverse.jpg)
+![*whiteboard*](./array/array_reverse/whiteboard_array_reverse.jpg)
 
 ---
 
@@ -90,13 +90,13 @@ Without utilizing any of the built-in methods available to your language, return
 
 #### Solution
 
-*[The Sol:](./array/array-insert-shift/README.md)*
+*[The Sol:](./array/array_insert_shift/README.md)*
 
 ---
 
 #### Whiteboard
 
-![The whiteboard](./array/array-insert-shift/whiteboard_array_insert_shift.jpg)
+![The whiteboard](./array/array_insert_shift/whiteboard_array_insert_shift.jpg)
 
 ---
 
@@ -121,7 +121,7 @@ Return the index of the array’s element that is equal to the value of the sear
 
 #### Whiteboard
 
-![The whiteboard](./array/array-binary-search/whiteboard-array-binary-search.jpg)
+![The whiteboard](./array/array_binary_search/whiteboard-array-binary-search.jpg)
 
 ---
 
