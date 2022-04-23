@@ -1,8 +1,4 @@
-from array.array_insert_shift.array_insert_shift.array_insert_shift import insert_shift_array
-from array_insert_shift import __version__
-
-
-
+from array_insert_shift.array_insert_shift import insert_shift_array
 def test_even_array():
     array = [1,5,4,6]
     new_val=7
@@ -15,6 +11,6 @@ def test_odd_array():
     array=[1,5,7,6,8]
     newVal=10
     actual=insert_shift_array(array,newVal)
-    expected= [1,5,7,10,8]
+    expected= [1,5,7,10,6,8]
     assert actual==expected
     
