@@ -57,8 +57,7 @@ This repository will include some challenges are related to data structure & alg
 
 ## Challeneges
 
-Table of Challenges sorted by type
-
+Table of Challenges
 
 ### Challenege 1 - Reverse Array
 
@@ -118,7 +117,7 @@ Return the index of the array’s element that is equal to the value of the sear
 
 #### Solution
 
-*[The Sol:](./array/array-binary-search/README.md)*
+*[The Sol:](./array/array_binary_search/README.md)*
 
 #### Whiteboard
 
