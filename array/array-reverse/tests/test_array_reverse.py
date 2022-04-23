@@ -17,3 +17,13 @@ def test_array_empty_reverse():
     actual=(reverse_array([]))
     expected=[]
     assert actual==expected
+    
+def test_array_long_odd():
+    actual=(reverse_array([1,3,5,7,9,1,17,16,15,18,17]))
+    expected=[17,18,15,16,17,1,9,7,5,3,1]
+    assert actual==expected
+
+def test_array_long_even():
+    actual=(reverse_array([4,2,6,8,10,12,14,16,18,20]))
+    expected=[20,18,16,14,12,10,8,6,2,4]
+    assert actual == expected
