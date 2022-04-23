@@ -47,6 +47,14 @@ This repository will include some challenges are related to data structure & alg
         - [Challenge](#challenge-8)
         - [Solution](#solution-8)
         - [Whiteboard](#whiteboard-8)
+      - [Challenge 13 - Stack Queue bracketss](#challenge-13---stack-queue-bracketss)
+        - [Challenge](#challenge-9)
+        - [Solution](#solution-9)
+        - [Whiteboard](#whiteboard-9)
+      - [Challenge 15 - Trees](#challenge-15---trees)
+        - [Challenge](#challenge-10)
+        - [Solution](#solution-10)
+        - [Whiteboard](#whiteboard-10)
 
 ## Challeneges
 
@@ -224,6 +232,43 @@ Implement both Stack and a Queue
 
 
 #### Challenge 11 - Stack Queue Pseudo
+
+##### Challenge 
+
+Implement a Queue using two Stacks.
+
+---
+
+##### Solution 
+
+[*The solution*](./stack_and_queue/stack_queue_pseudo/README.md)
+
+---
+
+##### Whiteboard
+
+![](./stack_and_queue/stack_queue_pseudo/whiteboard-satck-queue-pseudo.jpg)
+
+#### Challenge 13 - Stack Queue bracketss
+
+##### Challenge 
+
+Implement a Queue using two Stacks.
+
+---
+
+##### Solution 
+
+[*The solution*](./stack_and_queue/stack_queue_brackets/README.md)
+
+---
+
+##### Whiteboard
+
+![](./stack_and_queue/stack_queue_pseudo/whiteboard-satck-queue-pseudo.jpg)
+
+
+#### Challenge 15 - Trees
 
 ##### Challenge 
 
