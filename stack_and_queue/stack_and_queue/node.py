@@ -6,5 +6,5 @@ class Node:
         """
         The initialization of the Node class
         """
-        self.value =value
+        self.data =value
         self.next = None
