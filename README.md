@@ -34,6 +34,7 @@ This repository will include some challenges are related to data structure & alg
       - [Challenge](#challenge-5)
       - [Solution](#solution-5)
       - [Whiteboard](#whiteboard-5)
+  - [!The whiteboard *](#)
     - [Challenge 8 - Linkedlist - Zip](#challenge-8---linkedlist---zip)
       - [Challenge](#challenge-6)
       - [Solution](#solution-6)
@@ -46,14 +47,19 @@ This repository will include some challenges are related to data structure & alg
       - [Challenge](#challenge-8)
       - [Solution](#solution-8)
       - [Whiteboard](#whiteboard-8)
-    - [Challenge 13 - Stack Queue bracketss](#challenge-13---stack-queue-bracketss)
+    - [Challenge 12- Animal Shelter](#challenge-12--animal-shelter)
       - [Challenge](#challenge-9)
       - [Solution](#solution-9)
       - [Whiteboard](#whiteboard-9)
-    - [Challenge 15 - Trees](#challenge-15---trees)
+    - [Challenge 13 - Stack Queue bracketss](#challenge-13---stack-queue-bracketss)
       - [Challenge](#challenge-10)
+  - [it was fun and cool to try it :)](#it-was-fun-and-cool-to-try-it-)
       - [Solution](#solution-10)
       - [Whiteboard](#whiteboard-10)
+    - [Challenge 15 - Trees](#challenge-15---trees)
+      - [Challenge](#challenge-11)
+      - [Solution](#solution-11)
+      - [Whiteboard](#whiteboard-11)
 
 ## Challeneges
 
@@ -135,7 +141,7 @@ How to use LinkedList to insert elements and check if it is exist or not
 
 #### Solution
 
-*[The Sol:](./LinkedList/linkedlist/)*
+*[The Sol:](./linked-list/README.md)*
 
 ---
 
@@ -161,13 +167,13 @@ Write methods that append a node to the end of the link list, insert a new node 
 
 #### Solution
 
-*[The Sol:](./LinkedList/linked-list-insertion/README.md)*
+*[The Sol:](./linked-list/linked_list_insertion/README.md)*
 
 ---
 
 #### Whiteboard
 
-![The whiteboard ](./LinkedList/linked-list-insertion/whiteboard-linked-list-insertion.jpg)
+![The whiteboard ](./linked-list/linked_list_insertion/whiteboard-linked-list-insertion.jpg)
 
 ---
 
@@ -183,12 +189,11 @@ Create a  function that returns the node's value that is k places fro teh tail o
 
 #### Solution
 
-*[The Sol:](./LinkedList/linked-list-kth/README.md))*
+*[The Sol:](./linked-list/linked_list_kth/README.md)*
 
 #### Whiteboard
 
-![The whiteboard ](./LinkedList/linked-list-kth/whitebboard_linkedlist_kth.jpg)
-
+![The whiteboard ](./linked-list/linked_list_kth/whitebboard_linkedlist_kth.jpg)*
 ---
 
 ### Challenge 8 - Linkedlist - Zip
@@ -201,13 +206,13 @@ Write a function called Zip Linkedlists which takes two linked lists as argument
 
 #### Solution
 
-*[**The Solution**](./LinkedList/linked-list-zip/README.md)
+*[**The Solution**](./linked-list/linked_list_zip/README.md)*
 
 ---
 
 #### Whiteboard
 
-![*Whiteboard*](./LinkedList/linked-list-zip/whiteboard_linked_list_zip.jpg)
+![*Whiteboard*](./linked-list/linked_list_zip/whiteboard_linked_list_zip.jpg)*
 
 ### Challenge 10 - Stack and Queue Implementation
 
@@ -244,14 +249,37 @@ Implement a Queue using two Stacks.
 
 #### Whiteboard
 
-![](./stack_and_queue/stack_queue_pseudo/whiteboard-satck-queue-pseudo.jpg)
+![""](./stack_and_queue/stack_queue_pseudo/whiteboard-satck-queue-pseudo.jpg).
+
+### Challenge 12- Animal Shelter
+
+#### Challenge 
+
+
+
+---
+
+#### Solution 
+
+[*The solution*](./stack_and_queue/stack_queue_animal_shelter/README.md)
+
+---
+
+#### Whiteboard
+
+![](./stack_and_queue/stack_queue_animal_shelter/whiteboard-satck-queue-animalshelter.jpg)
+
+
 
 ### Challenge 13 - Stack Queue bracketss
 
 #### Challenge 
 
-Implement a Queue using two Stacks.
 
+this challenge are trying to let you get many solutions for 'multi_bracket_validation' .. then get the least complicated one..
+somehow 'getting the Big O Notation'..!
+
+it was fun and cool to try it :)
 ---
 
 #### Solution 
@@ -262,7 +290,7 @@ Implement a Queue using two Stacks.
 
 #### Whiteboard
 
-![](./stack_and_queue/stack_queue_pseudo/whiteboard-satck-queue-pseudo.jpg)
+![](./stack_and_queue/stack_queue_brackets/whiteboard-satck-queue-brackets.jpg)
 
 
 ### Challenge 15 - Trees

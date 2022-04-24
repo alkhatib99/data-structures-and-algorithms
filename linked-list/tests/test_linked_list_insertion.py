@@ -1,9 +1,7 @@
-from linked_list_insertion import __version__
-
 from linked_list_insertion.linked_list_insertion import LinkedList
 
 def test_append_node():
-    expected ="{ 5 } -> { 7 } -> NULL"
+    expected ="{5}->{7}->None"
     ll = LinkedList()
     ll.insert(5)
     ll.append(7)
@@ -12,7 +10,7 @@ def test_append_node():
 
 
 def test_append_many_nodes():
-    expected ="{ 1 } -> { 2 } -> { 3 } -> NULL"
+    expected ="{1}->{2}->{3}->None"
     ll = LinkedList()
     ll.insert(1)
     ll.append(2)
@@ -21,7 +19,7 @@ def test_append_many_nodes():
     assert actual == expected
 
 def test_insert_before_first_node():
-    expected="{ 1 } -> { 2 } -> { 3 } -> NULL"
+    expected="{1}->{2}->{3}->None"
     ll = LinkedList()
     ll.insert(2)
     ll.insert(3)
@@ -30,7 +28,7 @@ def test_insert_before_first_node():
     assert actual==expected
 
 def test_insert_before_middle_node():
-    expected ="{ 5 } -> { 1 } -> { 3 } -> NULL"
+    expected ="{5}->{1}->{3}->None"
     ll = LinkedList()
     ll.insert(5)
     ll.insert(3)
@@ -39,7 +37,7 @@ def test_insert_before_middle_node():
     assert actual == expected
 
 def test_insert_before_empty_list():
-    expected ="NULL"
+    expected ="None"
     ll = LinkedList()
     ll.insert_before(7,1)
     actual= str(ll)
@@ -52,7 +50,7 @@ def test_insert_after_list_empty():
     assert actual == expected
 
 def test_insert_after_middle_node():
-    expected ="{ 5 } -> { 10 } -> { 17 } -> NULL"
+    expected ="{5}->{10}->{17}->None"
     ll = LinkedList()
     ll.insert(5)
     ll.insert(10)
@@ -61,7 +59,7 @@ def test_insert_after_middle_node():
     assert actual == expected
 
 def test_insert_after():
-    expected ="{ 5 } -> { 17 } -> { 10 } -> { 20 } -> NULL"
+    expected ="{5}->{17}->{10}->{20}->None"
     ll = LinkedList()
     ll.insert(5)
     ll.insert(10)

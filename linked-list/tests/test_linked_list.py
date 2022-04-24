@@ -1,14 +1,13 @@
-from linked_list import __version__
-from LinkedList.linkedlist.linked_list import linkedList
+from linked_list.linked_list import LinkedList
 def test_Linkedlist_empty():
-    ll = linkedList()
+    ll = LinkedList()
     expected = None
     actual = ll.head
     assert expected == actual
 
 
 def test_insert_one():
-    ll = linkedList()
+    ll = LinkedList()
     ll.insert('first')
     expected = '{first}-> NULL'
     actual = ll.to_string()
@@ -16,17 +15,17 @@ def test_insert_one():
 
 
 def test_insert_multiple():
-    ll = linkedList()
+    ll = LinkedList()
     ll.insert('first')
     ll.insert(44)
     ll.insert('third')
-    expected = '{third}-> {44}-> {first}-> NULL'
+    expected = '{first}-> {44}-> {third}-> NULL'
     actual = ll.to_string()
     assert expected == actual
 
 
 def test_includes_true():
-    ll = linkedList()
+    ll = LinkedList()
     ll.insert('first')
     ll.insert('second')
     ll.insert('third')

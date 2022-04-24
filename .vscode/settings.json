@@ -1,6 +1,0 @@
-{
-    "python.analysis.extraPaths": [
-        "./stack_and_queue",
-        "./array"
-    ]
-}
