@@ -1,4 +1,4 @@
-from LinkedList.linkedlist.linked_list import LinkedList
+from linked_list.linked_list import LinkedList
 def kthFromEnd(self,k):
     """
     This method return the node’s value that is k places from the tail of the linked list.

@@ -1,5 +1,4 @@
-from LinkedList.linkedlist.linked_list import LinkedList, Node
-
+from linked_list.linked_list import LinkedList, Node
 def __contains__(self,value):
     """
     This method search in the linked list for a given value , and 

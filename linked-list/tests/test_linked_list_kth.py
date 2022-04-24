@@ -1,6 +1,4 @@
-from linked_list_kth import __version__
-from LinkedList.linkedlist.linked_list import LinkedList
-
+from linked_list_kth.linked_list_kth import LinkedList
 import pytest
 
 def test_kthFromEnd_k_greater_length():
