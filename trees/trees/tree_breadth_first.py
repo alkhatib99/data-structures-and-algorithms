@@ -1,4 +1,4 @@
-from trees import Queue
+from trees.trees import Queue
 
 def tree_breadth_first(tree):
     """

@@ -1,6 +1,6 @@
-from trees.trees.trees import BinaryTree,BinarySearchTree,Node
+from trees.trees import BinaryTree,BinarySearchTree,Node
 
-from  trees.trees.tree_breadth_first import tree_breadth_first
+from  trees.tree_breadth_first import tree_breadth_first
 import pytest
 
 def test_breadth_first():
