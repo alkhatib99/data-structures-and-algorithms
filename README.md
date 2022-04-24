@@ -58,8 +58,18 @@ This repository will include some challenges are related to data structure & alg
       - [Whiteboard](#whiteboard-10)
     - [Challenge 15 - Trees](#challenge-15---trees)
       - [Challenge](#challenge-11)
+  - [Implement a Trees](#implement-a-trees)
       - [Solution](#solution-11)
       - [Whiteboard](#whiteboard-11)
+    - [Challenge 16 - Trees-max](#challenge-16---trees-max)
+      - [Challenge](#challenge-12)
+      - [Solution](#solution-12)
+      - [Whiteboard](#whiteboard-12)
+    - [Challenge 17 - Trees- breadth first](#challenge-17---trees--breadth-first)
+      - [Challenge](#challenge-13)
+  - [return the tree in breadth-first Traversal](#return-the-tree-in-breadth-first-traversal)
+      - [Solution](#solution-13)
+      - [Whiteboard](#whiteboard-13)
 
 ## Challeneges
 
@@ -297,16 +307,51 @@ it was fun and cool to try it :)
 
 #### Challenge 
 
-Implement a Queue using two Stacks.
-
+Implement a Trees
 ---
 
 #### Solution 
 
-[*The solution*](./stack_and_queue/stack_queue_pseudo/README.md)
+[*The solution*](./trees/README.md)
 
 ---
 
 #### Whiteboard
 
-![](./stack_and_queue/stack_queue_pseudo/whiteboard-satck-queue-pseudo.jpg)
+![](./stack_and_queue/stack_queue_There are no whiteboard for this solution
+
+### Challenge 16 - Trees-max
+
+#### Challenge 
+
+Find the maximum value stored in the tree
+
+
+---
+
+#### Solution 
+
+[*The solution*](./trees/README_Tree_max.md)
+
+---
+
+#### Whiteboard
+
+![](./trees/whiteboard-tree-max.jpg)
+
+### Challenge 17 - Trees- breadth first 
+
+#### Challenge 
+
+return the tree in breadth-first Traversal
+---
+
+#### Solution 
+
+[*The solution*](./trees/README_TREE_BREADTH_FIRST.md)
+
+---
+
+#### Whiteboard
+
+![](./trees/whiteboard-tree-breadth.jpg)

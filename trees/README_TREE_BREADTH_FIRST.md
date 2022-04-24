@@ -3,7 +3,7 @@
 return the tree in breadth-first Traversal
 
 ## Whiteboard Process
-![bfs](tree_breadth_first.png)
+![bfs](./whiteboard-tree-breadth.jpg)
 
 ## Approach & Efficiency
 I use a queue and a list to traversal the tree element and loop over the queue if it have elements or not
