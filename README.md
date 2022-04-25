@@ -149,6 +149,7 @@ Return the index of the array’s element that is equal to the value of the sear
 ### Challenege 4 - Interview
 
 #### Challenge
+
 [The challenge](./interview/README.md)
 ---
 
@@ -159,7 +160,8 @@ Return the index of the array’s element that is equal to the value of the sear
 ---
 
 #### Whiteboard
-!["The whiteboard"](./interview/whiteboard-fibonanci.jpg)
+
+W!["The whiteboard"](./interview/whiteboard-fibonanci.jpg)
 
 ---
 
