@@ -24,7 +24,6 @@ This repository will include some challenges are related to data structure & alg
       - [Whiteboard](#whiteboard-2)
     - [Challenege 4 - Interview](#challenege-4---interview)
       - [Challenge](#challenge-3)
-  - [The challenge](#the-challenge)
       - [Solution](#solution-3)
       - [Whiteboard](#whiteboard-3)
     - [Challenege 5 - Linked-list](#challenege-5---linked-list)
@@ -39,7 +38,6 @@ This repository will include some challenges are related to data structure & alg
       - [Challenge](#challenge-6)
       - [Solution](#solution-6)
       - [Whiteboard](#whiteboard-6)
-  - [!The whiteboard *](#)
     - [Challenge 8 - Linkedlist - Zip](#challenge-8---linkedlist---zip)
       - [Challenge](#challenge-7)
       - [Solution](#solution-7)
@@ -58,12 +56,10 @@ This repository will include some challenges are related to data structure & alg
       - [Whiteboard](#whiteboard-10)
     - [Challenge 13 - Stack Queue bracketss](#challenge-13---stack-queue-bracketss)
       - [Challenge](#challenge-11)
-  - [it was fun and cool to try it :)](#it-was-fun-and-cool-to-try-it-)
       - [Solution](#solution-11)
       - [Whiteboard](#whiteboard-11)
     - [Challenge 15 - Trees](#challenge-15---trees)
       - [Challenge](#challenge-12)
-  - [Implement a Trees](#implement-a-trees)
       - [Solution](#solution-12)
       - [Whiteboard](#whiteboard-12)
     - [Challenge 16 - Trees-max](#challenge-16---trees-max)
@@ -72,7 +68,6 @@ This repository will include some challenges are related to data structure & alg
       - [Whiteboard](#whiteboard-13)
     - [Challenge 17 - Trees- breadth first](#challenge-17---trees--breadth-first)
       - [Challenge](#challenge-14)
-  - [return the tree in breadth-first Traversal](#return-the-tree-in-breadth-first-traversal)
       - [Solution](#solution-14)
       - [Whiteboard](#whiteboard-14)
 
@@ -150,7 +145,8 @@ Return the index of the array’s element that is equal to the value of the sear
 
 #### Challenge
 
-[The challenge](./interview/README.md)
+how to sum two number in series by add the preivous number with next number
+
 ---
 
 #### Solution
@@ -228,7 +224,8 @@ Create a  function that returns the node's value that is k places fro teh tail o
 
 #### Whiteboard
 
-![The whiteboard ](./linked-list/linked_list_kth/whitebboard_linkedlist_kth.jpg)*
+!["The whiteboard" ](./linked-list/linked_list_kth/whitebboard_linkedlist_kth.jpg)*
+
 ---
 
 ### Challenge 8 - Linkedlist - Zip
@@ -313,8 +310,8 @@ Implement a Queue using two Stacks.
 
 this challenge are trying to let you get many solutions for 'multi_bracket_validation' .. then get the least complicated one..
 somehow 'getting the Big O Notation'..!
-
 it was fun and cool to try it :)
+
 ---
 
 #### Solution 
@@ -333,6 +330,7 @@ it was fun and cool to try it :)
 #### Challenge 
 
 Implement a Trees
+
 ---
 
 #### Solution 
@@ -343,7 +341,7 @@ Implement a Trees
 
 #### Whiteboard
 
-![](./stack_and_queue/stack_queue_There are no whiteboard for this solution
+![""](./stack_and_queue/stack_queue_There are no whiteboard for this solution
 
 ### Challenge 16 - Trees-max
 
@@ -362,13 +360,15 @@ Find the maximum value stored in the tree
 
 #### Whiteboard
 
-![](./trees/whiteboard-tree-max.jpg)
+![""](./trees/whiteboard-tree-max.jpg)
+
 
 ### Challenge 17 - Trees- breadth first 
 
 #### Challenge 
 
 return the tree in breadth-first Traversal
+
 ---
 
 #### Solution 
@@ -379,4 +379,4 @@ return the tree in breadth-first Traversal
 
 #### Whiteboard
 
-![](./trees/whiteboard-tree-breadth.jpg)
+![" "](./trees/whiteboard-tree-breadth.jpg)
