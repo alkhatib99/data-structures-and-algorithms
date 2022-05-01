@@ -85,13 +85,13 @@ Write a function called reverseArray which takes an array as an argument. Withou
 
 #### Solution
 
-*[The Sol:](./array/array_reverse/README.md)*
+*[The Sol:](./array_reverse/README.md)*
 
 ---
 
 #### Whiteboard
 
-![*whiteboard*](./array/array_reverse/whiteboard_array_reverse.jpg)
+![*whiteboard*](./array_reverse/whiteboard_array_reverse.jpg)
 
 ---
 
@@ -106,13 +106,13 @@ Without utilizing any of the built-in methods available to your language, return
 
 #### Solution
 
-*[The Sol:](./array/array_insert_shift/README.md)*
+*[The Sol:](./array_insert_shift/README.md)*
 
 ---
 
 #### Whiteboard
 
-![The whiteboard](./array/array_insert_shift/whiteboard_array_insert_shift.jpg)
+![The whiteboard](./array_insert_shift/whiteboard_array_insert_shift.jpg)
 
 ---
 
@@ -133,11 +133,11 @@ Return the index of the array's element that is equal to the value of the search
 
 #### Solution
 
-*[The Sol:](./array/array_binary_search/README.md)*
+*[The Sol:](./array_binary_search/README.md)*
 
 #### Whiteboard
 
-![The whiteboard](./array/array_binary_search/whiteboard-array-binary-search.jpg)
+![The whiteboard](./array_binary_search/whiteboard-array-binary-search.jpg)
 
 ---
 
@@ -172,7 +172,7 @@ How to use LinkedList to insert elements and check if it is exists or not
 
 #### Solution
 
-*[The Sol:](./linked-list/README.md)*
+*[The Sol:](./linked_list/README.md)*
 
 ---
 
@@ -198,13 +198,13 @@ Write methods that append a node to the end of the link list, insert a new node 
 
 #### Solution
 
-*[The Sol:](./linked-list/linked_list_insertion/README.md)*
+*[The Sol:](./linked_list_insertion/README.md)*
 
 ---
 
 #### Whiteboard
 
-![The whiteboard ](./linked-list/linked_list_insertion/whiteboard-linked-list-insertion.jpg)
+![The whiteboard ](./linked_list_insertion/whiteboard-linked-list-insertion.jpg)
 
 ---
 
@@ -220,11 +220,11 @@ Create a  function that returns the node's value that is k places for the tail o
 
 #### Solution
 
-*[The Sol:](./linked-list/linked_list_kth/README.md)*
+*[The Sol:](./linked_list_kth/README.md)*
 
 #### Whiteboard
 
-!["The whiteboard" ](./linked-list/linked_list_kth/whitebboard_linkedlist_kth.jpg)*
+!["The whiteboard" ](./linked_list_kth/whitebboard_linkedlist_kth.jpg)*
 
 ---
 
@@ -238,13 +238,13 @@ Write a function called Zip Linkedlists which takes two linked lists as argument
 
 #### Solution
 
-*[**The Solution**](./linked-list/linked_list_zip/README.md)*
+*[**The Solution**](./linked_list_zip/README.md)*
 
 ---
 
 #### Whiteboard
 
-![*Whiteboard*](./linked-list/linked_list_zip/whiteboard_linked_list_zip.jpg)*
+![*Whiteboard*](./linked_list_zip/whiteboard_linked_list_zip.jpg)*
 
 ### Challenge 10 - Stack and Queue Implementation
 
@@ -256,7 +256,7 @@ Implement both Stack and a Queue
 
 #### Solution
 
-*[**The Solution**](./stack_and_queue/)
+*[**The Solution**](./stack_and_queue/README.md)
 
 ---
 
@@ -276,13 +276,13 @@ Implement a Queue using two Stacks.
 
 #### Solution
 
-[*The solution*](./stack_and_queue/stack_queue_pseudo/README.md)
+[*The solution*](./stack_queue_pseudo/README.md)
 
 ---
 
 #### Whiteboard
 
-![""](./stack_and_queue/stack_queue_pseudo/whiteboard-satck-queue-pseudo.jpg).
+![""](./stack_queue_pseudo/whiteboard-satck-queue-pseudo.jpg).
 
 ### Challenge 12- Animal Shelter
 
@@ -294,13 +294,13 @@ Implement a Queue using two Stacks.
 
 #### Solution
 
-[*The solution*](./stack_and_queue/stack_queue_animal_shelter/README.md)
+[*The solution*](./stack_queue_animal_shelter/README.md)
 
 ---
 
 #### Whiteboard
 
-![](./stack_and_queue/stack_queue_animal_shelter/whiteboard-satck-queue-animalshelter.jpg)
+!["whiteboard"](./stack_queue_animal_shelter/whiteboard-satck-queue-animalshelter.jpg)
 
 
 
@@ -316,13 +316,13 @@ it was fun and cool to try it :)
 
 #### Solution
 
-[*The solution*](./stack_and_queue/stack_queue_brackets/README.md)
+[*The solution*](./stack_queue_brackets/README.md)
 
 ---
 
 #### Whiteboard
 
-![](./stack_and_queue/stack_queue_brackets/whiteboard-satck-queue-brackets.jpg)
+!["Whiteboard"](./stack_queue_brackets/whiteboard-satck-queue-brackets.jpg)
 
 
 ### Challenge 15 - Trees
@@ -341,7 +341,7 @@ Implement a Trees
 
 #### Whiteboard
 
-![""](./stack_and_queue/stack_queue_There are no whiteboard for this solution
+**There are no whiteboard for this solution**
 
 ### Challenge 16 - Trees-max
 
