@@ -9,7 +9,7 @@ This repository will include some challenges are related to data structure & alg
 - [Data Structure & Algorithms](#data-structure--algorithms)
   - [Overview](#overview)
   - [Table Of Content](#table-of-content)
-  - [Challeneges](#challeneges)
+  - [Challenges](#challenges)
     - [Challenege 1 - Reverse Array](#challenege-1---reverse-array)
       - [Challenge](#challenge)
       - [Solution](#solution)
@@ -71,7 +71,7 @@ This repository will include some challenges are related to data structure & alg
       - [Solution](#solution-14)
       - [Whiteboard](#whiteboard-14)
 
-## Challeneges
+## Challenges
 
 Table of Challenges
 
@@ -126,7 +126,7 @@ A function called `binary_search`
 - first is a sorted array
 - the second is the search key.
 
-Return the index of the array’s element that is equal to the value of the search key
+Return the index of the array's element that is equal to the value of the search key
      or -1 if the element is not in the array.
 
 ---
@@ -145,7 +145,7 @@ Return the index of the array’s element that is equal to the value of the sear
 
 #### Challenge
 
-how to sum two number in series by add the preivous number with next number
+how to sum two numbers in series by adding the previous number with the next number
 
 ---
 
@@ -166,7 +166,7 @@ W!["The whiteboard"](./interview/whiteboard-fibonanci.jpg)
 
 #### Challenge
 
-How to use LinkedList to insert elements and check if it is exist or not
+How to use LinkedList to insert elements and check if it is exists or not
 
 ---
 
@@ -186,7 +186,7 @@ How to use LinkedList to insert elements and check if it is exist or not
 
 #### Challenge
 
-Write methods that append a node to the end of the link list, insert a new node before a specific value, and one that inserts a new node after a specific value.
+Write methods that append a node to the end of the link list, insert a new node before a specific value, and insert a new node after a specific value.
 
 - `.append(value)` which adds a new node with the given `value` to the end of the list
 
@@ -214,7 +214,7 @@ Write methods that append a node to the end of the link list, insert a new node 
 
 #### Challenge
 
-Create a  function that returns the node's value that is k places fro teh tail of linked list.
+Create a  function that returns the node's value that is k places for the tail of the linked list.
 
 ---
 
@@ -254,7 +254,7 @@ Implement both Stack and a Queue
 
 ---
 
-#### Solution 
+#### Solution
 
 *[**The Solution**](./stack_and_queue/)
 
@@ -265,15 +265,16 @@ Implement both Stack and a Queue
 **There are no whiteboard for this solution**
 
 
+
 ### Challenge 11 - Stack Queue Pseudo
 
-#### Challenge 
+#### Challenge
 
 Implement a Queue using two Stacks.
 
 ---
 
-#### Solution 
+#### Solution
 
 [*The solution*](./stack_and_queue/stack_queue_pseudo/README.md)
 
@@ -285,13 +286,13 @@ Implement a Queue using two Stacks.
 
 ### Challenge 12- Animal Shelter
 
-#### Challenge 
+#### Challenge
 
 
 
 ---
 
-#### Solution 
+#### Solution
 
 [*The solution*](./stack_and_queue/stack_queue_animal_shelter/README.md)
 
@@ -305,16 +306,15 @@ Implement a Queue using two Stacks.
 
 ### Challenge 13 - Stack Queue bracketss
 
-#### Challenge 
+#### Challenge
 
-
-this challenge are trying to let you get many solutions for 'multi_bracket_validation' .. then get the least complicated one..
+this challenge is trying to let you get many solutions for 'multi_bracket_validation' .. then get the least complicated one..
 somehow 'getting the Big O Notation'..!
 it was fun and cool to try it :)
 
 ---
 
-#### Solution 
+#### Solution
 
 [*The solution*](./stack_and_queue/stack_queue_brackets/README.md)
 
@@ -327,13 +327,13 @@ it was fun and cool to try it :)
 
 ### Challenge 15 - Trees
 
-#### Challenge 
+#### Challenge
 
 Implement a Trees
 
 ---
 
-#### Solution 
+#### Solution
 
 [*The solution*](./trees/README.md)
 
@@ -345,14 +345,13 @@ Implement a Trees
 
 ### Challenge 16 - Trees-max
 
-#### Challenge 
+#### Challenge
 
 Find the maximum value stored in the tree
 
-
 ---
 
-#### Solution 
+#### Solution
 
 [*The solution*](./trees/README_Tree_max.md)
 
@@ -362,16 +361,15 @@ Find the maximum value stored in the tree
 
 ![""](./trees/whiteboard-tree-max.jpg)
 
+### Challenge 17 - Trees- breadth first
 
-### Challenge 17 - Trees- breadth first 
-
-#### Challenge 
+#### Challenge
 
 return the tree in breadth-first Traversal
 
 ---
 
-#### Solution 
+#### Solution
 
 [*The solution*](./trees/README_TREE_BREADTH_FIRST.md)
 
