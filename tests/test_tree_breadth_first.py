@@ -3,6 +3,7 @@ from trees.trees import BinaryTree,BinarySearchTree,Node
 from  trees.tree_breadth_first import tree_breadth_first
 import pytest
 
+
 def test_breadth_first():
     # Arrange
     # Create tree instance

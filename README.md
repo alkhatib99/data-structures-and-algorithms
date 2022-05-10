@@ -70,6 +70,11 @@ This repository will include some challenges are related to data structure & alg
       - [Challenge](#challenge-14)
       - [Solution](#solution-14)
       - [Whiteboard](#whiteboard-14)
+    - [Challenge 18 - Fizz Buzz](#challenge-18---fizz-buzz)
+      - [Challenge](#challenge-15)
+  - [Write a function called FizzBuzzTree which takes a k-ary tree as an argument. Without utilizing any of the built-in methods available to your language](#write-a-function-called-fizzbuzztree-which-takes-a-k-ary-tree-as-an-argument-without-utilizing-any-of-the-built-in-methods-available-to-your-language)
+      - [Solution](#solution-15)
+      - [Whiteboard](#whiteboard-15)
 
 ## Challenges
 
@@ -378,3 +383,22 @@ return the tree in breadth-first Traversal
 #### Whiteboard
 
 ![" "](./trees/whiteboard-tree-breadth.jpg)
+
+---
+
+### Challenge 18 - Fizz Buzz
+
+#### Challenge
+
+Write a function called FizzBuzzTree which takes a k-ary tree as an argument. Without utilizing any of the built-in methods available to your language
+---
+
+#### Solution
+
+[*The solution*](./tree_fizz_buzz/README.md)
+
+---
+
+#### Whiteboard
+
+![" "](./tree_fizz_buzz/whiteboard-fizz-buzz.jpg)
