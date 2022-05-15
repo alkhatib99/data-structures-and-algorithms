@@ -6,10 +6,10 @@ Write a function called FizzBuzzTree which takes a k-ary tree as an argument. Wi
 
 ## Whiteboard Process
 
-![whiteboard](whiteboard-fizz-buzz.jpg)
+![whiteboard](./whiteboard_fizz_buzz_tree.jpg)
 
 ## Approach and Efficiency
 
 I used a pre-order, DFS, recursive algorithm with a helper function to traverse the k-ary tree and return a new tree, as represented by a list, with fizzbuzz values inside of it.
 
-
+---

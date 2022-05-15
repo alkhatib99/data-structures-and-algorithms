@@ -30,7 +30,7 @@ This repository will include some challenges are related to data structure & alg
       - [Challenge](#challenge-4)
       - [Solution](#solution-4)
       - [Whiteboard](#whiteboard-4)
-    - [Challenge 6 - LinkedList - Append,Insert before, Insert After](#challenge-6---linkedlist---appendinsert-before-insert-after)
+    - [Challenge 6 - LinkedList - Append, Insert before, Insert After](#challenge-6---linkedlist---append-insert-before-insert-after)
       - [Challenge](#challenge-5)
       - [Solution](#solution-5)
       - [Whiteboard](#whiteboard-5)
@@ -170,7 +170,7 @@ W!["The whiteboard"](./interview/whiteboard-fibonanci.jpg)
 
 #### Challenge
 
-How to use LinkedList to insert elements and check if it is exists or not
+How to use LinkedList to insert elements and check if it exists or not
 
 ---
 
@@ -186,7 +186,7 @@ How to use LinkedList to insert elements and check if it is exists or not
 
 ---
 
-### Challenge 6 - LinkedList - Append,Insert before, Insert After
+### Challenge 6 - LinkedList - Append, Insert before, Insert After
 
 #### Challenge
 
@@ -194,9 +194,9 @@ Write methods that append a node to the end of the link list, insert a new node 
 
 - `.append(value)` which adds a new node with the given `value` to the end of the list
 
-- `.insertBefore(value, newVal)` which add a new node with the given `newValue` immediately before the first `value` node
+- `.insertBefore(value, newVal`)` which adds a new node with the given `newValue` immediately before the first `value` node
 
-- `.insertAfter(value, newVal)` which add a new node with the given newValue immediately after the first value node
+- `.insertAfter(value, newVal`)` which adds a new node with the given newValue immediately after the first value node
 
 ---
 
@@ -401,4 +401,4 @@ Write a function called FizzBuzzTree which takes a k-ary tree as an argument. Wi
 
 #### Whiteboard
 
-![" "](./tree_fizz_buzz/whiteboard-fizz-buzz.jpg)
+![" "](./tree_fizz_buzz/whiteboard_fizz_buzz_tree.jpg)
