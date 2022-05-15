@@ -1,40 +1,61 @@
-from tree_fizz_buzz.tree_fizz_buzz import Node, fizzbuzz,fizzbuzz_tree
+import pytest
+from tree_fizz_buzz.tree_fizz_buzz import tree_fizz_buzz,KAryTree,Node
 
-def test_class_and_functions_exist():
-    assert Node
-    assert fizzbuzz
-    assert fizzbuzz_tree
-
-
-def test_fizzbuzz_tree():
-    root = Node(1)
-    root.add_child(2)
-    root.add_child(3)
-    root.add_child(4)
-    root.add_child(5)
-    root.children[0].add_child(6)
-    root.children[1].add_child(7)
-    root.children[2].add_child(8)
-    root.children[3].add_child(15)
-    test = fizzbuzz_tree(root)
-    assert test == ['1', '2', 'fizz', 'fizz', '7', '4', '8', 'buzz', 'fizzbuzz']
+def test_adding_to_tree(insert_elements):
+    
+    '''
+    To check if the tree have new elemnts 
+    '''
+    # checking root
+    assert insert_elements.root.value==1
+    # checking one of levels of tree 
+    assert insert_elements.root.child[0].child[1].value==51
 
 
-def test_fizzbuzz_tree2():
-    root = Node(9)
-    root.add_child(1)
-    root.add_child(4)
-    root.children[0].add_child(15)
-    root.children[0].add_child(30)
-    root.children[0].add_child(4)
-    root.children[1].add_child(2)
-    root.children[1].add_child(7)
-    root.children[1].add_child(8)
-    test = fizzbuzz_tree(root)
-    assert test == ['fizz', '1', 'fizzbuzz', 'fizzbuzz', '4', '4', '2', '7', '8']
 
 
-def test_works_with_one_node():
-    root = Node(15)
-    test = fizzbuzz_tree(root)
-    assert test == ['fizzbuzz']
+def test_tree_fizz_buzz_function(insert_elements):
+    
+    '''
+    To check if tree_fizz_buzz working correctly
+    '''
+
+    # call the function and check if this return KAryTree calss type
+    tree=tree_fizz_buzz(insert_elements)
+    assert isinstance(insert_elements,KAryTree)
+
+    #check some values to see they fizz , buss , fizzBuzz or string
+
+    assert tree.child[2].value=='Buzz'   
+    assert tree.child[0].child[0].value=='FizzBuzz'   
+    assert tree.child[2].child[2].value=='Fizz'  
+    assert isinstance(tree.child[0].child[2].value, str)  
+
+
+
+
+
+@pytest.fixture
+def insert_elements():
+    K_ary_tree=KAryTree()
+    K_ary_tree.root=Node(1)
+    K_ary_tree.root.child.append(Node(2))
+    K_ary_tree.root.child.append(Node(5))
+    K_ary_tree.root.child.append(Node(10))
+
+
+    K_ary_tree.root.child[0].child.append(Node(30))
+    K_ary_tree.root.child[0].child.append(Node(51))
+    K_ary_tree.root.child[0].child.append(Node(43))
+
+
+    K_ary_tree.root.child[1].child.append(Node(6))
+    K_ary_tree.root.child[1].child.append(Node(8))
+    K_ary_tree.root.child[1].child.append(Node(7))
+
+
+
+    K_ary_tree.root.child[2].child.append(Node(-5))
+    K_ary_tree.root.child[2].child.append(Node(-20))
+    K_ary_tree.root.child[2].child.append(Node(-6))
+    return K_ary_tree 
