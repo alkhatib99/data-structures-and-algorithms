@@ -1,28 +1,32 @@
-
 class Node:
     def __init__(self, value):
         self.value = value
-        self.children = []
-    def add_child(self, child):
-        self.children.append(Node(child))
+        self.child = []
+        
+
+class KAryTree:
+  def __init__(self):
+    self.root=None
 
 
-def fizzbuzz_tree(root, arr=None):
-    if arr == None:
-        arr = []
-    if root:
-        arr.append(fizzbuzz(root.value))
-        if root.children:
-            for i in root.children:
-                fizzbuzz_tree(i, arr)
-    return arr
+def tree_fizz_buzz(ktree):
 
+  temp=ktree.root
 
-def fizzbuzz(number):
-    if number % 15 == 0:
-        return 'fizzbuzz'
-    if number % 5 == 0:
-        return 'buzz'
-    if number % 3 == 0:
-        return 'fizz'
-    return str(number)
+  def _reblace(node):
+
+    if node.value%5==0 and node.value%3==0:
+      node.value='FizzBuzz'
+    elif node.value%5==0:
+      node.value="Buzz"
+    elif node.value%3==0:
+      node.value="Fizz"
+    else:
+      node.value=str(node.value)
+    for i in node.child:
+      if i !=[]:      
+        _reblace(i)
+
+  _reblace(temp)
+  
+  return temp
