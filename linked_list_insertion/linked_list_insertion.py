@@ -28,6 +28,7 @@ def append(self,value):
     else:
         self.head=node
 LinkedList.append=append
+
 def insert_before(self,value, newValue):
     """
     adds a new node with the given new value immediately before the first node that has the value specified
