@@ -74,6 +74,10 @@ This repository will include some challenges are related to data structure & alg
       - [Challenge](#challenge-15)
       - [Solution](#solution-15)
       - [Whiteboard](#whiteboard-15)
+    - [Challenge 26](#challenge-26)
+      - [Challenge](#challenge-16)
+      - [Solution](#solution-16)
+      - [Whiteboard](#whiteboard-16)
 
 ## Challenges
 
@@ -402,3 +406,13 @@ Write a function called FizzBuzzTree which takes a k-ary tree as an argument. Wi
 #### Whiteboard
 
 ![" "](./tree_fizz_buzz/whiteboard_fizz_buzz_tree.jpg)
+
+### Challenge 26
+
+#### Challenge
+
+#### Solution
+
+[""](./insertion_sort/Blog.md)
+
+#### Whiteboard
