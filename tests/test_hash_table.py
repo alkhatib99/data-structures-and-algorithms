@@ -1,98 +1,54 @@
+from hash_table.hash_table import HashTable
 import pytest
-from hashtable.hashtable import Hashtable
-
-def test_create():
-    hashtable = Hashtable()
-    assert hashtable
 
 
-def test_predictable_hash():
-    hashtable = Hashtable()
-    initial = hashtable._hash("spam")
-    secondary = hashtable._hash("spam")
-    assert initial == secondary
 
-
-def test_in_range_hash():
-    hashtable = Hashtable()
-    actual = hashtable._hash("spam")
-
-    assert actual >= 0
-    assert actual < hashtable.size
-
-    assert 0 <= actual < hashtable.size
-
-
-def test_same_hash():
-    hashtable = Hashtable()
-    initial = hashtable._hash("listen")
-    secondary = hashtable._hash("silent")
-    assert initial == secondary
-
-
-def test_different_hash():
-    hashtable = Hashtable()
-    initial = hashtable._hash("glisten")
-    secondary = hashtable._hash("silent")
-    assert initial != secondary
-
-
-def test_set():
-    hashtable = Hashtable()
-    hashtable.set("number", 23)
-    actual = hashtable.get("number")
-    expected = 23
+def test_hash_table_hash():
+    expected = 586
+    hashtable=HashTable()
+    actual = hashtable.hash("r")
     assert actual == expected
 
 
-def test_set_fail():
-    hashtable = Hashtable()
-    hashtable.set("number", 23)
-    actual = hashtable.get("fail")
-    expected = 23
-    assert actual != expected
+def test_hash_table_hash_word():
+        expected = 40
+        hashtable=HashTable()
+        actual = hashtable.hash("dd")
+        assert actual == expected
 
 
-def test_get1(test_ht):
-    actual = test_ht.get("number")
-    expected = 23
+def test_hash_table_set():
+    hashtable=HashTable()
+    expected = "40"
+    hashtable.set("abood","40")
+    actual = hashtable.get("abood")
     assert actual == expected
 
-
-def test_get2(test_ht):
-    actual = test_ht.get("letter")
-    expected = "a"
+def test_hash_table_get():
+    hashtable=HashTable()
+    expected = "Pythonic"
+    hashtable.set("py","Pythonic")
+    actual = hashtable.get("py")
     assert actual == expected
 
-
-def test_get_fail(test_ht):
-    actual = test_ht.get("noun")
-    expected = "a"
-    assert actual != expected
-
-
-def test_contains_true(test_ht):
-    actual = test_ht.contains("number")
-    expected = True
+def test_hash_table_get_null():
+    hashtable=HashTable()
+    expected = "None"
+    actual = hashtable.get("flower")
     assert actual == expected
 
-
-def test_contains_false(test_ht):
-    actual = test_ht.contains("name")
-    expected = False
+def test_hash_table_handle_collision():
+    hashtable=HashTable()
+    expected = "10"
+    hashtable.set("abood","10")
+    hashtable.set("abood","10")
+    actual = hashtable.get("abood")
     assert actual == expected
 
-
-def test_contains_fail(test_ht):
-    actual = test_ht.contains("name")
-    expected = True
-    assert actual != expected
-
-
-@pytest.fixture
-def test_ht():
-    hashtable = Hashtable()
-    hashtable.set("number", 23)
-    hashtable.set("letter", "a")
-    hashtable.set("verb", "run")
-    return hashtable
+def test_hash_table_get_value_within_collision():
+    hashtable=HashTable()
+    expected = "11"
+    hashtable.set("dd","11")
+    hashtable.set("dd","15")
+    actual = hashtable.get("dd")
+    assert actual == expected
