@@ -78,6 +78,10 @@ This repository will include some challenges are related to data structure & alg
       - [Challenge](#challenge-16)
       - [Solution](#solution-16)
       - [Whiteboard](#whiteboard-16)
+    - [Challenge 30 - Hash-Table](#challenge-30---hash-table)
+      - [Challenge](#challenge-17)
+      - [Solution](#solution-17)
+      - [Whiteboard](#whiteboard-17)
 
 ## Challenges
 
@@ -416,3 +420,23 @@ Write a function called FizzBuzzTree which takes a k-ary tree as an argument. Wi
 [""](./insertion_sort/Blog.md)
 
 #### Whiteboard
+
+
+### Challenge 30 - Hash-Table
+
+#### Challenge 
+
+Implements the hashtable data structure and the following methods.
+**set**, **get**, **contains**, **hash**
+
+---
+
+#### Solution
+
+["sol-hashtables"](./hash_table/README.md)
+
+---
+
+#### Whiteboard
+
+**There are no whiteboard for this solution**
